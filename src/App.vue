@@ -1,9 +1,13 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link>|
+    <router-link :to="{name:'personal'}">Personal</router-link>
+    
   </nav>
+  This is where the component is injected
   <router-view/>
+  This is where the component is injected
 </template>
 
 <style>
